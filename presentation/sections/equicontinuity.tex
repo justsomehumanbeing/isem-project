@@ -84,19 +84,49 @@
 		\begin{remark}
 			Intuitively equicontinuity means that two points that are close, were always and will always be close.
 		\end{remark}}
-		\only<3-4>{
-		\begin{proposition}
-			Let $d, \tilde{d}$ be two metrics on $X$, that induce the same topology. Then $(X, T)$ is equicontinuous with respect to $d$ if and only if it is equicontinuous with respect to $\tilde{d}$.
-		\end{proposition}}
-		\only<4>{
-		\begin{proposition}
-			For an equicontinuous action we can always choose a metric, inducing the same topology, that is invariant under the action.
-		\end{proposition}}
-		\only<5>{
-		\begin{proposition}
-			Equicontinuity is preserved under conjugacies, (countable) products and subsystems. 
-		\end{proposition}}
 	\end{minipage}
+	\end{overlayarea}
+\end{frame}
+
+\begin{frame}
+	\onslide<1->{
+		\begin{definition}[Equicontinuous TDS]
+			The TDS $(X, T)$ is \textbf{equicontinuous} if for $\varepsilon > 0$ there is some $\delta > 0$ such that
+			\begin{align*}
+				d(x, y) < \delta \Rightarrow d(tx, ty) < \varepsilon
+			\end{align*}
+			for all $x, y \in X$ and $t \in T$.
+	\end{definition}}
+	\begin{overlayarea}{\textwidth}{3.6cm}
+		\begin{minipage}{\textwidth}
+			\only<3-4>{
+				\begin{proposition}
+					Let $d, \tilde{d}$ be two metrics on $X$, that induce the same topology. Then $(X, T)$ is equicontinuous with respect to $d$ if and only if it is equicontinuous with respect to $\tilde{d}$.
+			\end{proposition}}
+			\only<4>{
+				\begin{proposition}
+					For an equicontinuous action we can always choose a metric, inducing the same topology, that is invariant under the action.
+			\end{proposition}}
+		\end{minipage}
+	\end{overlayarea}
+\end{frame}
+
+\begin{frame}
+	\onslide<1->{
+		\begin{definition}[Equicontinuous TDS]
+			The TDS $(X, T)$ is \textbf{equicontinuous} if for $\varepsilon > 0$ there is some $\delta > 0$ such that
+			\begin{align*}
+				d(x, y) < \delta \Rightarrow d(tx, ty) < \varepsilon
+			\end{align*}
+			for all $x, y \in X$ and $t \in T$.
+	\end{definition}}
+	\begin{overlayarea}{\textwidth}{3.6cm}
+		\begin{minipage}{\textwidth}
+			\only<5>{
+				\begin{proposition}
+					Equicontinuity is preserved under conjugacies, (countable) products and subsystems. 
+			\end{proposition}}
+		\end{minipage}
 	\end{overlayarea}
 \end{frame}
 
